@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/patient"
+    app:startDestination="@id/patientList">
+
+    <fragment
+        android:id="@+id/patientList"
+        android:name="com.irfanirawansukirman.patientapp.PatientListFragment"
+        android:label="Patient List"
+        tools:layout="@layout/patient_fragment" />
+
+    <fragment
+        android:id="@+id/patientDetail"
+        android:name="com.irfanirawansukirman.patientapp.PatientDetailFragment"
+        android:label="Patient Detail Fragment"
+        tools:layout="@layout/patient_detail_fragment" />
+
+</navigation>
